@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "endcrystalsdontexplode",
+	"version": "${version}",
+	"name": "endcrystalsdontexplode",
+	"description": "A really bad way to make End Crystals not explode",
+	"authors": [
+		"Goli7700"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/endcrystalsdontexplode/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.goliath7700.endcrystalsdontexplode.Endcrystalsdontexplode"
+		]
+	},
+	"mixins": [
+		"endcrystalsdontexplode.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

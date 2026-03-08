@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "io.github.goliath7700.endcrystalsdontexplode.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "EndCrystalMixin",
+    "ExampleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+	}
+}
